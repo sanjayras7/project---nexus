@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     /* background-color: #f4f4f4;   */
+   
+     background-image: url('https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?size=626&ext=jpg&ga=GA1.1.1605237716.1714447675&semt=ais'
+    );  
+  
+    background-size: cover; 
+    background-position: center; 
+    padding-right: 750px;
+}
+
+.container {
+    width: 400px;
+      /* background-color: #fff;      */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+
+.login-form h1 {
+    color: #fff;;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-weight: bolder;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+     border: 1px solid #ccc; 
+    border-radius: 4px;
+    color: #0a0a0a; /* Set text color to be visible on the background */
+    font-weight: bolder;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #67a8ee;
+    color: #fff; 
+    cursor: pointer;
+    color:#fff; /* Set text color to be visible on the background */
+    font-weight: bolder;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.form-group p {
+    text-align: center;
+    color:#fff ;
+    font-weight: bolder;
+}
+
+.form-group a {
+    color: #007bff; 
+    text-decoration: none;
+    /* color: #eef1fb; Set text color to be visible on the background */
+    font-weight: bolder;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+   
