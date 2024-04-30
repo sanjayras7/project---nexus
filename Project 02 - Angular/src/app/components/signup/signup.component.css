@@ -1,0 +1,63 @@
+.container {
+  /* Center the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the container full height of the viewport */
+  background-color: #f9f9f9;
+  background-image: url('https://th.bing.com/th/id/R.2053e0d910bb9f2594ce2482e96070ec?rik=KT%2bdRhsR1vzURQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fCoffee-wallpaper-backgrounds-hd.jpg&ehk=nM5ykWo1rrz6W9YG9Dj%2f7VQXAbfXTMVlYb9buln7zUs%3d&risl=&pid=ImgRaw&r=0');  
+ 
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  padding-right: 500px;
+}
+ 
+.form-box {
+  width: 400px; /* Adjust the width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-box form {
+  width: 100%;
+}
+ 
+.form-box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+.form-box label {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bolder;
+}
+ 
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button[type="submit"] {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Display as inline-block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  transition-duration: 0.4s; /* Transition */
+  cursor: pointer; /* Cursor pointer */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.form-box .error {
+  color: red;
+}
